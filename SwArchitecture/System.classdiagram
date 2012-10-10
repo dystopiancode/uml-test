@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="2e60b672-4770-447d-85cb-a1da665cc1f2" name="System" linkedPackageId="8f4e3661-bc6b-47c0-a6d3-17ccf240a15c" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="12d2a498-e4d1-4310-b7c7-e77b2c4b7590" name="systemModel" profile="StandardProfileL3">
+      <elementDefinition Id="5b990206-1873-4910-a44a-d50d75ebfab0" />
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="0d77d5ad-217b-4ef8-a031-33b3d835f234">
+      <profileInstance Id="c275bea7-a834-4ab2-bd7b-de9f16050fda" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="af5c59eb-f80d-4e69-b9b2-e07054069d99">
+      <profileInstance Id="04a716b5-eaa4-4faf-a109-6a6f79e7eb08" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="79728898-fe0a-4a05-8252-699435d083c4">
+      <profileInstance Id="b2ebb4b7-db64-4d5f-8193-f8c36a9ebb58" name="CSharpProfile">
+        <elementDefinition Id="a0afe746-8ef5-4ccf-8aa0-96884c6bcffc" />
+      </profileInstance>
+      <elementDefinition Id="45f61907-5824-46a5-b02d-24936d77cd5f" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="602174db-ed44-4afe-afeb-a63f52202e39" name="System">
+        <elementDefinition Id="5e44524d-0978-4e6f-85b0-b1b2112ed9d5" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="9903a6c7-87b7-4e0f-a84c-cc78c1e4e24c" name="DateTime" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="f771fb99-c5d9-4665-8989-d49afde9c0a6" />
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="cdff7f9c-7551-4537-b63f-bdc8beada91d" name="TimeSpan" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="1578447a-0805-4301-b9fb-2417fcdcddad" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="8f4e3661-bc6b-47c0-a6d3-17ccf240a15c" name="SwArchitecture">
+    <elementDefinition Id="d0bac6d7-8d43-49a4-965f-259f67cfd920" />
+  </package>
+</logicalClassDesignerModel>

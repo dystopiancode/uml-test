@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="dd286f48-020f-4c56-91d8-ef1aa666802a" name="Server" linkedPackageId="526be847-b0bf-4b4e-89eb-0b7ab96ebcd0" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="73932f7b-a54c-40eb-ae74-94b1fedc1e4f" name="systemModel" profile="StandardProfileL3">
+      <elementDefinition Id="5b990206-1873-4910-a44a-d50d75ebfab0" />
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="e037442d-31da-421a-9684-894a4a04cf71">
+      <profileInstance Id="775e89d8-5773-4931-8a45-71709883f3cb" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="279582b2-ba69-4731-9cce-785c70fadf75">
+      <profileInstance Id="48a217f1-bfa5-4c37-b016-63d0dc0dd29d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c409de1d-79ee-4ab1-9aee-a89097bd37b5">
+      <profileInstance Id="bcc1ee05-0b97-4d2d-8f85-99d6e0d0a369" name="CSharpProfile">
+        <elementDefinition Id="a0afe746-8ef5-4ccf-8aa0-96884c6bcffc" />
+      </profileInstance>
+      <elementDefinition Id="45f61907-5824-46a5-b02d-24936d77cd5f" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <referencedType Id="3b990366-8a39-4976-a68a-e9e34790bca6" name="ClientModel" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Client::ClientModel">
+        <elementDefinition Id="14ec3df0-a195-41ce-8fd6-9f74a38ae255" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c73d48bb-171f-4d5d-a2f9-878246925f2b" name="ClientModel" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Client::ClientModel">
+        <elementDefinition Id="14ec3df0-a195-41ce-8fd6-9f74a38ae255" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="2eb36a62-6685-4db1-8d6e-c3c1fb50de2a" name="User" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Client::User">
+        <elementDefinition Id="105590d8-d962-4e2e-baaf-1f18e445fc7a" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="c67ee69d-7c16-4937-b748-e5b70225e908" name="CryptoKey" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Common::CryptoKey">
+        <elementDefinition Id="612077d4-01d1-4a69-9727-a8ab3b5e36f8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5f96647a-0ade-4bbb-a88b-3601f2a4ab43" name="ServerModel" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Server::ServerModel">
+        <elementDefinition Id="460ab446-590b-43c2-8980-73d4c8751eb1" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="75d21306-8cd5-44ac-9ced-0e4d2557cbe7" name="CryptoKey" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Common::CryptoKey">
+        <elementDefinition Id="612077d4-01d1-4a69-9727-a8ab3b5e36f8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="00bd5e80-9b57-443e-bb6d-dac70679ca4d" name="KeyFamily" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Common::KeyFamily">
+        <elementDefinition Id="bd2cecc7-68bf-4bbb-8983-5d81b5287a1e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e6c6f793-0e3c-4d08-bdae-98ad75447eb7" name="KeyFamily" isAbstract="false" isLeaf="false" cachedFullName="SwArchitecture::Org.Student.Pssc.Common::KeyFamily">
+        <elementDefinition Id="bd2cecc7-68bf-4bbb-8983-5d81b5287a1e" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="b19633ad-d1a2-4551-b702-c27bdfc2dd8d" name="Org.Student.Pssc.Server">
+        <elementDefinition Id="eba990b6-ec1e-464f-b1e9-8707c08613c4" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="c2f1f59b-a60c-4b4a-a155-6dd17b15178b" name="ServerViewer" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c9c3e144-5faf-422a-989b-21292200d953" />
+              <targetEnds>
+                <association Id="98728e6b-4286-463a-a420-2fff3fecc5ee" isDerived="false" sourceEndRoleName="ServerViewer" targetEndRoleName="ServerModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="67b7375b-0982-42f3-96ab-d0dc070696ac" LastKnownName="ServerModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c9da3f9d-390b-4a0c-9d5a-2e27b82f9885" name="ServerViewer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="5360461a-bc0e-4e5d-aa0a-4644b433a291" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="39105d20-6174-4dfe-8bdf-9e3aebad97e6" name="ServerModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <elementDefinition Id="f523692c-0ebd-4908-ab24-bb29cded0605" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="fe012abb-07ac-4508-a1b0-d2567bec4eaf" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="6fa6f2e3-49a7-4295-a7d9-bbbbacfbe990" name="_serverModel" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="44a1a8cb-272b-4511-9390-648cb9ebb2bf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="5f96647a-0ade-4bbb-a88b-3601f2a4ab43" LastKnownName="ServerModel" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="8dc5db40-b3ed-487e-9f44-04a54be4531e" name="ServerViewer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="ff4680d8-f888-42a1-abb1-79ad87d004a5" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="3f091801-c337-4b5a-8844-7d5d22753c02" name="model" direction="In">
+                        <elementDefinition Id="4c49c0a9-7282-4acc-855d-cd7781f13bd7" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="5f96647a-0ade-4bbb-a88b-3601f2a4ab43" LastKnownName="ServerModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="67b7375b-0982-42f3-96ab-d0dc070696ac" name="ServerModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="460ab446-590b-43c2-8980-73d4c8751eb1" />
+              <ownedAttributesInternal>
+                <property Id="db9cedf1-b1fe-4e97-832c-ace2d1be4c42" name="ConnectedClients" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e744bb89-2dfa-43b7-bfd8-008d0fe520ab" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3b990366-8a39-4976-a68a-e9e34790bca6" LastKnownName="ClientModel" />
+                  </type_NamedElement>
+                </property>
+                <property Id="21da98e1-d4c9-46f5-b202-d37e5ca05620" name="_clients" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="8dd0b074-e037-4d9c-b6b6-a5f460ba71e0" name="Lower" value="*">
+                      <elementDefinition Id="18854bdc-9137-4c41-94a0-7f26be809df0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="ac54078e-0aa8-4c68-abca-21985fc3709a" name="Upper" value="*">
+                      <elementDefinition Id="ea914e51-5826-40b9-9786-8cde0202a5e0" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="85cfa607-1f7e-4234-9fea-987c4d21a4a3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c73d48bb-171f-4d5d-a2f9-878246925f2b" LastKnownName="ClientModel" />
+                  </type_NamedElement>
+                </property>
+                <property Id="c8e4d26a-ef0f-46e3-b322-4be809cf4c26" name="Keys" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="27b553ee-4d04-4bb2-8bb2-d9a48bd0561c" name="Lower" value="*">
+                      <elementDefinition Id="930f12b3-f412-4423-b12c-1bd7544e63df" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="8a049471-04ef-46c4-b1b3-ff2e6809309e" name="Upper" value="*">
+                      <elementDefinition Id="9c2b5f11-acc1-4152-9546-f777d65ad965" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="0445fe7f-4547-4eaf-a8a1-dcf572057150" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="c67ee69d-7c16-4937-b748-e5b70225e908" LastKnownName="CryptoKey" />
+                  </type_NamedElement>
+                </property>
+                <property Id="d4e336f1-e0e2-45c0-ba94-19d3b24eeea0" name="_keys" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="ec6e2f40-68bd-46f9-9abf-75501f39308b" name="Lower" value="*">
+                      <elementDefinition Id="c75c11ac-46c1-4102-b1ad-ba37bb8b24fb" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c74542ee-954f-4fb9-865e-926f4dce29b0" name="Upper" value="*">
+                      <elementDefinition Id="3012da49-0018-4a30-9f8d-86d8232521dd" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="2d21c556-44f8-4c30-a3c3-6fc628932136" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="75d21306-8cd5-44ac-9ced-0e4d2557cbe7" LastKnownName="CryptoKey" />
+                  </type_NamedElement>
+                </property>
+                <property Id="68b8a8da-cb2d-4bb9-8210-e83a32ddd5d8" name="Families" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="888da59b-164b-4adb-b296-8babac09b664" name="Lower" value="*">
+                      <elementDefinition Id="ed7d01c7-0e8a-4149-91f0-d8f8a37e9a44" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="6e107c23-0a99-4917-94e7-08e9201235cf" name="Upper" value="*">
+                      <elementDefinition Id="0d0ee42f-ab63-47e9-a5e2-12f54e8bcd88" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="dfde4407-19a2-4600-9081-7685bf69289d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="00bd5e80-9b57-443e-bb6d-dac70679ca4d" LastKnownName="KeyFamily" />
+                  </type_NamedElement>
+                </property>
+                <property Id="f4dd1a31-88dc-4437-8e6b-4ec06925db24" name="_keyFamilies" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="923b7688-4891-482b-89ff-00457581b85d" name="Lower" value="*">
+                      <elementDefinition Id="08f18596-add5-4cfb-bcae-3b8bc59440fa" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="9327c80c-e851-4a67-8ad3-46ac238a6fda" name="Upper" value="*">
+                      <elementDefinition Id="986379bd-4cc1-49fb-bbd5-9c68799bb5c1" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3cb52561-101c-4824-b0a7-0ee036347778" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e6c6f793-0e3c-4d08-bdae-98ad75447eb7" LastKnownName="KeyFamily" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="14e68e98-dcd3-46d5-9712-351702d6e7fd" name="AddClient" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="f9b6cd6e-6c65-41b5-8cfc-e29fc23e628f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e65a7bf5-9ada-456f-9b20-3acc57580ef9" name="client" direction="In">
+                        <elementDefinition Id="63106464-5ca0-4a55-85db-ca2b062da02d" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="3b990366-8a39-4976-a68a-e9e34790bca6" LastKnownName="ClientModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="a7d74151-ea3b-4fe7-a7cc-94744c0aa6ca" name="RemoveClient" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="0186b214-2307-47d8-ab05-28439f28edd3" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="77150508-718e-400a-b43b-20a4336ecc22" name="username" direction="In">
+                        <elementDefinition Id="f2b10c24-4917-4c42-beec-07f84a26c918" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="2eb36a62-6685-4db1-8d6e-c3c1fb50de2a" LastKnownName="User" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="9f2bbe4b-77f5-4b0f-9964-afaf0023a490" name="EditClient" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="038c116c-7188-4b70-81b9-a982386cb851" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="da754c2c-fdf7-4a89-a090-1178e6f0be0a" name="editedClient" direction="In">
+                        <elementDefinition Id="c12e4cd7-b530-4b59-97b4-f2271cdfdf65" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="2eb36a62-6685-4db1-8d6e-c3c1fb50de2a" LastKnownName="User" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="58e2736a-7e94-43ce-9ac4-906d15eb8e79" name="newClient" direction="In">
+                        <elementDefinition Id="b9ff5519-eb56-4c6d-854c-7b7b7b725a38" />
+                        <type_NamedElement>
+                          <referencedTypeMoniker Id="3b990366-8a39-4976-a68a-e9e34790bca6" LastKnownName="ClientModel" />
+                        </type_NamedElement>
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="3063491a-4d32-4ccc-9261-cd3a265dec35" name="ServerModel" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="768c62d1-a089-4fa8-ac3e-268c7a650fee" />
+                </operation>
+                <operation Id="67a8c159-5e76-4c00-9c98-d8fbce8dc558" name="AddKeyFamily" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="be91deed-9fc3-4130-ad50-1a7e62556370" />
+                </operation>
+                <operation Id="9aa1fcaf-bd22-424c-8b94-ad89fedd9b85" name="MakeCompromiseRequest" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="8d90f002-e3e1-42fb-a926-ae13eb2d2dd7" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="526be847-b0bf-4b4e-89eb-0b7ab96ebcd0" name="SwArchitecture">
+    <elementDefinition Id="d0bac6d7-8d43-49a4-965f-259f67cfd920" />
+  </package>
+</logicalClassDesignerModel>
